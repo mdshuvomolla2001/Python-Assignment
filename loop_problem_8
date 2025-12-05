@@ -1,0 +1,11 @@
+number = 7
+while True:
+    user_input = int(input("Enter the number: "))
+    if user_input == number:
+        print("Correct")
+        break
+    else:
+        if user_input > number:
+            print("Too high")
+        else:
+            print("Too low")
