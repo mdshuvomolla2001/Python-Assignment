@@ -1,0 +1,15 @@
+password = "shuvoimran212"
+attempt = 0
+
+
+while attempt <3:
+    user_password = input("Enter the password: ")
+    if password == user_password:
+        print("Correct")
+        break
+    else:
+        print("wrong")
+        attempt +=1
+        if attempt ==3:
+            print("blocked")
+            break
